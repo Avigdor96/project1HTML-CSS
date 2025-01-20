@@ -1,0 +1,23 @@
+main .container{
+    flex-direction: column;
+    padding: 150px; 
+}
+main h1{
+    font-size: 70px;
+}
+main h2{
+    font-size: 50px; 
+}
+@media screen and (max-width: 768px) {
+    main .container{
+        flex-direction: column;
+        padding: 5px;
+        width: 200px;
+    }
+    main h1{
+        font-size: 50px;
+    }
+    main h2{
+        font-size: 30px; 
+    }
+}
